@@ -1,0 +1,69 @@
+html{
+    background-color: blanchedalmond;
+    width: 100%;
+}
+#india{
+    width:600px;
+    height: 300px;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.orange{
+    width: 100%;
+    height: 100px;
+    background-color: #ff9a33;
+    border-radius:10px 10px 0 0 ;
+}
+.white{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+.green{
+    width: 100%;
+    height: 100px;
+    background-color: #138807;
+    border-radius: 0 0 10px 10px;
+}
+.ashokchakra{
+    position: absolute;
+    height: 90%;
+    width:90px;
+    left:250px;
+    border-radius: 50%;
+    border: 5px solid #050281;
+}
+.circle{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color:#050281;
+    border-radius: 50%;
+    left:35px;
+    top: 35px ;
+}
+.spoke {
+    width: 100%;
+    height: 4px;
+    background-color: #050281;
+    position: absolute;
+    top: 43px;
+    left: 0;
+    transform-origin: 50% 50%;
+}
+
+.spoke:nth-child(1)  { transform: rotate(0deg); }
+.spoke:nth-child(2)  { transform: rotate(30deg); }
+.spoke:nth-child(3)  { transform: rotate(60deg); }
+.spoke:nth-child(4)  { transform: rotate(90deg); }
+.spoke:nth-child(5)  { transform: rotate(120deg); }
+.spoke:nth-child(6)  { transform: rotate(150deg); }
+.spoke:nth-child(7)  { transform: rotate(180deg); }
+.spoke:nth-child(8)  { transform: rotate(210deg); }
+.spoke:nth-child(9)  { transform: rotate(240deg); }
+.spoke:nth-child(10) { transform: rotate(270deg); }
+.spoke:nth-child(11) { transform: rotate(300deg); }
+.spoke:nth-child(12) { transform: rotate(330deg); }
